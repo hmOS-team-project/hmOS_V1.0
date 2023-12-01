@@ -5,7 +5,7 @@
 
 **（2）使用VScode将github中的项目代码进行克隆，具体如下：** 
 
-<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/01.png" width="700px" height="350px" />    
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/01.png" width="700px" height="350px" />     
 
   
 **（3）代码下载完成后，此时的文件夹如下：** 
@@ -14,7 +14,7 @@
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/03.png" width="200px" height="250px" />   
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/04.png" width="200px" height="180px" />    
 
-&emsp;&emsp;&emsp;&emsp;&emsp;项目文件&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;后端&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;前端&emsp;  
+&emsp;&emsp;&emsp;项目文件&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;后端&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;前端&emsp;   
 
 **（4）在VScode打开cmd，执行【npm install】（安装所需要的包）** 
 
