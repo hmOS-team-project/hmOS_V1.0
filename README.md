@@ -1,19 +1,20 @@
-# hmOS1.0 
+# hmOS1.0  
 ## hmOS系统配置与运行  
 ### 一、克隆项目代码到本地
 **（1）项目的github地址：<https://github.com/Miraclewyfei/hmOS1.0>**  
 
 **（2）使用VScode将github中的项目代码进行克隆，具体如下：** 
 
-<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/01.png" width="700px" height="350px" />   
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/01.png" width="700px" height="350px" />    
 
   
 **（3）代码下载完成后，此时的文件夹如下：** 
 
-<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/02.png" width="250px" height="350px" />  
-<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/03.png" width="250px" height="280px" />  
-<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/04.png" width="250px" height="200px" />     
-&emsp;&emsp;&emsp;&emsp;&emsp;项目文件&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;后端&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;前端&emsp; 
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/02.png" width="200px" height="330px" />   
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/03.png" width="200px" height="250px" />   
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/04.png" width="200px" height="180px" />    
+
+&emsp;&emsp;&emsp;&emsp;&emsp;项目文件&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;后端&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;前端&emsp;  
 
 **（4）在VScode打开cmd，执行【npm install】（安装所需要的包）** 
 
@@ -24,15 +25,15 @@
 
 **（2）修改代码中配置mysql的文件，确保与阿里云服务器一致** 
 
-<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/05.png" width="250px" height="310px" />  
-<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/06.png" width="450px" height="280px" />      
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/05.png" width="200px" height="280px" />   
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/06.png" width="400px" height="240px" />       
 
 **（3）使用navicat软件可以测试数据库是否连接成功** 
 
 > 1)新建两个连接，分别用于管理两个数据库
 
-<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/07.png" width="300px" height="210px" />   
-<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/08.png" width="290px" height="280px" />     
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/07.png" width="280px" height="200px" />    
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/08.png" width="260px" height="260px" />      
 
 > 2)在数据库中运行SQL文件，查看是否连接成功
 
