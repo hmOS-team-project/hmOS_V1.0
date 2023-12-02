@@ -1,5 +1,5 @@
 # hmOS_V1.0  
-## hmOS系统配置与运行  
+## hmOS V1.0 Platform Configuration and Deployment Process Instructions.  
 ### 一、克隆项目代码到本地
 **（1）项目的github地址：<https://github.com/hmOS-team-project/hmOS_V1.0>**  
 
