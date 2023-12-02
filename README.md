@@ -1,7 +1,7 @@
-# hmOS1.0  
+# hmOS_V1.0  
 ## hmOS系统配置与运行  
 ### 一、克隆项目代码到本地
-**（1）项目的github地址：<https://github.com/Miraclewyfei/hmOS1.0>**  
+**（1）项目的github地址：<https://github.com/hmOS-team-project/hmOS_V1.0>**  
 
 **（2）使用VScode将github中的项目代码进行克隆，具体如下：** 
 
