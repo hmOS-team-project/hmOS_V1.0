@@ -1,0 +1,198 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    position: relative;
+}
+
+:root {
+    --duration: .4s;
+    --easing: cubic-bezier(.7, 0, .2, 1);
+}
+
+#app1 {
+    display: flex;
+    height: 680px;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    perspective: 801px;
+    -webkit-perspective-origin: center center;
+    perspective-origin: center center;
+}
+
+#app1>* {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.tiles {
+    bottom: 100px;
+    margin: auto;
+    width: 120vmin;
+    height: 70vmin;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-gap: 5vmin;
+    -webkit-transform: translateZ(-100px) rotateX(50deg);
+    transform: translateZ(-100px) rotateX(50deg);
+}
+
+.tile {
+    opacity: 0.99;
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+    padding: 1em;
+    background: rgba(0, 168, 255, 0.2) radial-gradient(circle at top center, rgba(255, 255, 255, 0.8), transparent);
+    transition: background-color var(--duration) linear, -webkit-transform var(--duration) var(--easing);
+    transition: transform var(--duration) var(--easing), background-color var(--duration) linear;
+    transition: transform var(--duration) var(--easing), background-color var(--duration) linear, -webkit-transform var(--duration) var(--easing);
+}
+
+.tile>header {
+    grid-column: 2;
+    grid-row: 2 / 3;
+    font-size: 2vmin;
+    font-weight: bold;
+    color: white;
+    transition: inherit;
+    transition-property: color, opacity, -webkit-transform;
+    transition-property: transform, color, opacity;
+    transition-property: transform, color, opacity, -webkit-transform;
+    text-shadow: 0 0.25vmin 1vmin rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tile>header:after {
+    content: '';
+    display: inline-block;
+    top: .5em;
+    height: 1px;
+    width: 40%;
+    margin-left: 2em;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    transition: inherit;
+}
+
+.tile::before {
+    position: absolute;
+    bottom: 55px;
+    right: 0;
+    font-size: 22vmin;
+    opacity: .9;
+    font-weight: bold;
+    transform: scale(0.6);
+    transform-origin: 50% 0%;
+    align-self: flex-end;
+    transition: inherit;
+}
+
+
+/* .tile::before {
+    background: url("../../assets/img/icon-type1.png") no-repeat;
+    content: "";
+    background-size: 80%;
+    width: 100px;
+    height: 100px;
+    ;
+} */
+
+.type1::before {
+    background: url("../../assets/img/icon-type1.png") no-repeat;
+    content: "";
+    background-size: 80%;
+    width: 100px;
+    height: 100px;
+    ;
+}
+
+.type2::before {
+    background: url("../../assets/img/icon-type2.png") no-repeat;
+    content: "";
+    background-size: 80%;
+    width: 100px;
+    height: 100px;
+    ;
+}
+
+.type3::before {
+    background: url("../../assets/img/icon-type3.png") no-repeat;
+    content: "";
+    background-size: 80%;
+    width: 100px;
+    height: 100px;
+    ;
+}
+
+.type4::before {
+    background: url("../../assets/img/icon-type4.png") no-repeat;
+    content: "";
+    background-size: 80%;
+    width: 100px;
+    height: 100px;
+    ;
+}
+
+.tile:hover {
+    background-color: var(--color, green);
+    transform: translateZ(20px);
+}
+
+.tile:hover::before {
+    transform: translateX(-40%) scale(1);
+}
+
+.tile:hover header {
+    transform: translate(40%, -100%);
+    color: #000;
+    opacity: 0.4;
+}
+
+.tile:hover header::after {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+}
+
+
+/* ---------------------------------- */
+
+.tiles {
+    -webkit-transform: rotateX(calc(-15deg * var(--rot-x, 0))) rotateY(calc(-15deg * var(--rot-y, 0)));
+    transform: rotateX(calc(-15deg * var(--rot-x, 0))) rotateY(calc(-15deg * var(--rot-y, 0)));
+}
+
+
+/* ---------------------------------- */
+
+
+/* 
+.mouser {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 2vmin;
+    height: 2vmin;
+    border-radius: 50%;
+    background: #FFF;
+    z-index: 999;
+    transform: translate(calc(1px * var(--mouse-x, 50vw)), calc(1px * var(--mouse-y, 50vh))) translate(-50%, -50%);
+}
+
+.mouser:before {
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+    background: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(calc(1 + var(--over)));
+    transition: transform 0.2s var(--easing);
+    transition: transform 0.2s var(--easing),
+} */

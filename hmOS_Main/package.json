@@ -1,0 +1,44 @@
+{
+  "name": "vue-manage-system",
+  "version": "4.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "ali-oss": "^6.15.2",
+    "axios": "^0.18.1",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.5.2",
+    "cors": "^2.8.5",
+    "echarts": "^4.9.0",
+    "element-ui": "^2.11.0",
+    "jquery": "^3.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mavon-editor": "^2.6.17",
+    "mongoose": "^5.12.3",
+    "multer": "^1.4.3",
+    "multiparty": "^4.2.2",
+    "mysql": "^2.18.1",
+    "particles.js": "^2.0.0",
+    "popper.js": "^1.16.1",
+    "video.js": "^7.13.3",
+    "vue": "^2.6.10",
+    "vue-cropperjs": "^3.0.0",
+    "vue-i18n": "^8.10.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-resource": "^1.5.2",
+    "vue-router": "^3.0.3",
+    "vue-schart": "^2.0.0",
+    "vuedraggable": "^2.17.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "html-loader": "^0.5.5",
+    "vue-particles": "^1.0.9",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

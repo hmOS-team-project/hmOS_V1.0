@@ -1,0 +1,24 @@
+1
+filenames is
+['c1s3_003646.jpg,mat', 'c1s3_016471.jpg,mat', 'c1s3_017346.jpg,mat', 'c3s1_150758.jpg,mat', 'c3s1_150808.jpg,mat', 'c3s1_150933.jpg,mat', 'c3s1_150958.jpg,mat', 'c3s1_150983.jpg,mat', 'c3s2_001921.jpg,mat', 'c3s2_001946.jpg,mat', 'c3s2_001971.jpg,mat', 'c3s2_001996.jpg,mat', 'c3s2_002046.jpg,mat', 'c3s2_002096.jpg,mat', 'c5s1_151320.jpg,mat', 'c5s1_151345.jpg,mat', 'c5s1_151395.jpg,mat']
+countt/n
+1
+overlapnum is/n
+9296
+temppath/n
+c3s2_001946.jpg
+2
+filenames is
+['c1s4_069011.jpg,mat', 'c1s4_069086.jpg,mat', 'c2s1_154966.jpg,mat', 'c2s1_154991.jpg,mat', 'c2s1_155066.jpg,mat', 'c2s1_159916.jpg,mat', 'c2s1_159941.jpg,mat', 'c3s1_154433.jpg,mat', 'c3s1_154458.jpg,mat', 'c3s1_154533.jpg,mat', 'c3s1_154808.jpg,mat', 'c3s1_154833.jpg,mat', 'c3s1_160083.jpg,mat', 'c3s1_160108.jpg,mat', 'c3s1_160133.jpg,mat', 'c3s2_129269.jpg,mat', 'c3s2_129319.jpg,mat', 'c3s2_129344.jpg,mat', 'c3s2_129394.jpg,mat', 'c5s2_129974.jpg,mat', 'c5s2_129999.jpg,mat', 'c5s2_130074.jpg,mat', 'c5s2_130099.jpg,mat', 'c6s2_123343.jpg,mat', 'c6s2_123443.jpg,mat', 'c6s2_123468.jpg,mat', 'c6s2_123518.jpg,mat', 'c6s2_123543.jpg,mat']
+countt/n
+2
+overlapnum is/n
+18592
+temppath/n
+c5s2_129974.jpg
+3
+filenames is
+['c3s1_155583.jpg,mat', 'c4s3_008073.jpg,mat', 'c5s1_156095.jpg,mat', 'c5s1_156120.jpg,mat']
+1
+filenames is
+['c1s4_069011.jpg,mat', 'c1s4_069086.jpg,mat', 'c2s1_154966.jpg,mat', 'c2s1_154991.jpg,mat', 'c2s1_155066.jpg,mat', 'c2s1_159916.jpg,mat', 'c2s1_159941.jpg,mat', 'c3s1_154433.jpg,mat', 'c3s1_154458.jpg,mat', 'c3s1_154533.jpg,mat', 'c3s1_154808.jpg,mat', 'c3s1_154833.jpg,mat', 'c3s1_160083.jpg,mat', 'c3s1_160108.jpg,mat', 'c3s1_160133.jpg,mat', 'c3s2_129269.jpg,mat', 'c3s2_129319.jpg,mat', 'c3s2_129344.jpg,mat', 'c3s2_129394.jpg,mat', 'c5s2_129974.jpg,mat', 'c5s2_129999.jpg,mat', 'c5s2_130074.jpg,mat', 'c5s2_130099.jpg,mat', 'c6s2_123343.jpg,mat', 'c6s2_123443.jpg,mat', 'c6s2_123468.jpg,mat', 'c6s2_123518.jpg,mat', 'c6s2_123543.jpg,mat']
