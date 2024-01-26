@@ -45,7 +45,7 @@
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/10.png" width="290px" height="100px" />   
 
-**启动成功后：** 
+**Upon successful initiation:** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/11.png" width="400px" height="156px" />  
 
@@ -61,26 +61,26 @@
 
 ### 4. Execute the pedestrian re-identification task.
 
-**（1）注册登陆后，进入总控台界面，使用【Create Task】创建任务:** 
+**(1) Upon logging in, access the platform homepage and utilize the "Create Task" function to initiate a task.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/14.png" width="700px" height="350px" />   
 
-**（2）仅可以创建重识别任务，点击【identification】:** 
+**(2) Create a pedestrian re-identification task by selecting the "identification" category.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/15.png" width="700px" height="350px" />   
 
-**（3）输入任务的Name、Time Limit、Accuracy Limit以及Description，点击【NEXT】（由于后端代码包装）:** 
+**(3) Input task details such as Name, Time Limit, Accuracy Limit, and Description, then proceed by clicking the "NEXT" button.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/16.png" width="700px" height="350px" />   
 
-**（4）在Dataset可对需要识别的target进行【Select】，之后对其【Upload】，并对视频进行上传，完成之后点击【Finished】:** 
+**(4) Within the Dataset section, perform the "Select" button on the target objects for recognition tasks, followed by the "Upload" button for the associated videos. Upon completion, click the "Finished" button.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/17.png" width="700px" height="350px" />     
 
-**（5）可通过Task View对任务进行查看:** 
+**(5) Utilize the "Task View" function on the homepage to monitor the progress of tasks.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/18.png" width="700px" height="350px" />    
 
-**（6）在任务的执行中，点击右边红色框（执行中会变成黄色），会进行采样，将照片交给human进行标记:**
+**(6) During task execution, click the right-sided red box (which turns yellow when in progress) to initiate sampling, assigning photos for human annotation.**
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/19.png" width="700px" height="350px" />   
