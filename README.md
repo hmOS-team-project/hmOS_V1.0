@@ -1,14 +1,14 @@
 # hmOS_V1.0  
 ## hmOS V1.0 Platform Configuration and Deployment Process Instructions.  
 ### 1. Clone the project code to the local server.
-**（1）项目的github地址：<https://github.com/hmOS-team-project/hmOS_V1.0>.**  
+***(1) The GitHub repository for the project can be found at：<https://github.com/hmOS-team-project/hmOS_V1.0>.**  
 
-**（2）使用VScode将github中的项目代码进行克隆，具体如下：** 
+**（2）To clone the project code from GitHub, utilize VScode：** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/01.png" width="700px" height="350px" />     
 
   
-**（3）代码下载完成后，此时的文件夹如下：** 
+**（3）Once the code download is complete, the folder structure will be as follows：** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/02.png" width="200px" height="330px" />   
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/03.png" width="200px" height="250px" />   
@@ -16,7 +16,7 @@
 
 &emsp;&emsp;&emsp;Project File&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Backend&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Frontend&emsp;   
 
-**（4）在VScode打开cmd，执行【npm install】（安装所需要的包）.** 
+**（4）Open the command prompt within VScode and execute "npm install" to install necessary dependencies.** 
 
 ### 2. Configure the backend database environment.
 **由于hmOS V1.0平台存储用户的数据库为mySQL，其在Alibaba Cloud Server上已配置；而用于任务存储的数据库是mongoDB，其在本地运行，需在本地安装并配置mongoDB的环境：** 
