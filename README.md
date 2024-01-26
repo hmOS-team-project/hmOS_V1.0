@@ -73,7 +73,7 @@
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/16.png" width="700px" height="350px" />   
 
-**(4) Within the Dataset section, perform the "Select" button on the target objects for recognition tasks, followed by the "Upload" button for the associated videos. Upon completion, click the "Finished" button.** 
+**(4) Within the Dataset section, perform the "Select" button on the target objects for identification tasks, followed by the "Upload" button for the associated videos. Upon completion, click the "Finished" button.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/17.png" width="700px" height="350px" />     
 
