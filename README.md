@@ -41,7 +41,7 @@
 
 ### 3. Launch the hmOS_V1.0 project.
 
-**（1）启动前端界面，执行【npm  run dev】:** 
+**(1) Initiate the frontend interface using the command: 'npm run dev'.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/10.png" width="290px" height="100px" />   
 
@@ -49,15 +49,15 @@
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/11.png" width="400px" height="156px" />  
 
-**（2）启动任务后端（注意打开的文件夹server），执行【node app.js】:** 
+**(2) Launch the backend tasks by navigating to the 'server' folder and executing the command: 'node app.js'.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/12.png" width="600px" height="130px" />   
 
-**（3）再打开一个命令（注意文件夹为aliOSS）,执行【node app.js】:** 
+**(3) Open a new PowerShell window within the 'aliOSS' folder and run the command: 'node app.js'.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/13.png" width="500px" height="62px" />   
 
-**（4）可通过第一步启动的前端进行登录.** 
+**(4) Perform user login through the frontend initiated in the first step.** 
 
 ### 4. Execute the pedestrian re-identification task.
 
