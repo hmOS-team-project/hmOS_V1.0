@@ -3,12 +3,12 @@
 ### 1. Clone the project code to the local server.
 ***(1) The GitHub repository for the project can be found at：<https://github.com/hmOS-team-project/hmOS_V1.0>.**  
 
-**（2）To clone the project code from GitHub, utilize VScode：** 
+***(2) To clone the project code from GitHub, utilize VScode：** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/01.png" width="700px" height="350px" />     
 
   
-**（3）Once the code download is complete, the folder structure will be as follows：** 
+***(3) Once the code download is complete, the folder structure will be as follows：** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/02.png" width="200px" height="330px" />   
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/03.png" width="200px" height="250px" />   
@@ -16,10 +16,10 @@
 
 &emsp;&emsp;&emsp;Project File&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Backend&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Frontend&emsp;   
 
-**（4）Open the command prompt within VScode and execute "npm install" to install necessary dependencies.** 
+***(4) Open the command prompt within VScode and execute "npm install" to install necessary dependencies.** 
 
 ### 2. Configure the backend database environment.
-**由于hmOS V1.0平台存储用户的数据库为mySQL，其在Alibaba Cloud Server上已配置；而用于任务存储的数据库是mongoDB，其在本地运行，需在本地安装并配置mongoDB的环境：** 
+**hmOS V1.0 platform utilizes mySQL for user database storage, configured on Alibaba Cloud Server, and mongoDB for task storage, requiring local installation and configuration of the mongoDB environment.** 
 
 **（1）在本地安装mongoDB；**  
 
