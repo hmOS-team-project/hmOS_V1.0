@@ -30,12 +30,12 @@
 
 **(3) Use Navicat software to test the database connection:** 
 
-> 1) Create two connections for managing the two databases.
+> a. Create two connections for managing the two databases.
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/07.png" width="280px" height="200px" />    
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/08.png" width="260px" height="260px" />      
 
-> 2) Execute SQL files in the databases to verify the successful connection.
+> b. Execute SQL files in the databases to verify the successful connection.
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/09.png" width="250px" height="300px" />  
 
