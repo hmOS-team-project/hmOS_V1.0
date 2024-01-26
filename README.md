@@ -1,14 +1,14 @@
 # hmOS_V1.0  
 ## hmOS V1.0 Platform Configuration and Deployment Process Instructions.  
 ### 1. Clone the project code to the local server.
-***(1) The GitHub repository for the project can be found at：<https://github.com/hmOS-team-project/hmOS_V1.0>.**  
+**(1) The GitHub repository for the project can be found at：<https://github.com/hmOS-team-project/hmOS_V1.0>.**  
 
-***(2) To clone the project code from GitHub, utilize VScode：** 
+**(2) To clone the project code from GitHub, utilize VScode：** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/01.png" width="700px" height="350px" />     
 
   
-***(3) Once the code download is complete, the folder structure will be as follows：** 
+**(3) Once the code download is complete, the folder structure will be as follows：** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/02.png" width="200px" height="330px" />   
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/03.png" width="200px" height="250px" />   
@@ -16,26 +16,26 @@
 
 &emsp;&emsp;&emsp;Project File&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Backend&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Frontend&emsp;   
 
-***(4) Open the command prompt within VScode and execute "npm install" to install necessary dependencies.** 
+**(4) Open the command prompt within VScode and execute "npm install" to install necessary dependencies.** 
 
 ### 2. Configure the backend database environment.
-**hmOS V1.0 platform utilizes mySQL for user database storage, configured on Alibaba Cloud Server, and mongoDB for task storage, requiring local installation and configuration of the mongoDB environment.** 
+**Note: hmOS V1.0 platform utilizes mySQL for user database storage, configured on Alibaba Cloud Server, and mongoDB for task storage, requiring local installation and configuration of the mongoDB environment.** 
 
-**（1）在本地安装mongoDB；**  
+**(1) Install MongoDB on the local server.**  
 
-**（2）修改代码中配置mySQL的文件，确保与Alibaba Cloud服务器一致;** 
+**（2）Modify the MySQL configuration file in the code to ensure compatibility with the Alibaba Cloud server.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/05.png" width="200px" height="280px" />   
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/06.png" width="400px" height="240px" />       
 
-**（3）使用navicat软件可以测试数据库是否连接成功;** 
+**（3）Use Navicat software to test the database connection:** 
 
-> 1)新建两个Connections，分别用于管理两个数据库:
+> 1) Create two connections for managing the two databases.
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/07.png" width="280px" height="200px" />    
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/08.png" width="260px" height="260px" />      
 
-> 2)在数据库中运行SQL文件，查看是否连接成功!
+> 2) Execute SQL files in the databases to verify the successful connection.
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/09.png" width="250px" height="300px" />  
 
