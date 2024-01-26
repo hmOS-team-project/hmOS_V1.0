@@ -23,12 +23,12 @@
 
 **(1) Install MongoDB on the local server.**  
 
-**（2）Modify the MySQL configuration file in the code to ensure compatibility with the Alibaba Cloud server.** 
+**(2) Modify the MySQL configuration file in the code to ensure compatibility with the Alibaba Cloud server.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/05.png" width="200px" height="280px" />   
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/06.png" width="400px" height="240px" />       
 
-**（3）Use Navicat software to test the database connection:** 
+**(3) Use Navicat software to test the database connection:** 
 
 > 1) Create two connections for managing the two databases.
 
