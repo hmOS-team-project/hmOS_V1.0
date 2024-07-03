@@ -60,12 +60,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="type4 tile" style="--color: #92e6d1">
-                                <header style="font-size: 20px">Others</header>
+                            <div class="type4 tile" style="--color: #92e6d1" @click="gototranslation()">
+                                <header style="font-size: 20px">Translation</header>
                                 <div class="box-content">
                                     <div class="content">
                                         <h3 class="title">For example</h3>
-                                        <span class="post">Text Translate</span>
+                                        <span class="post">Program Translation</span>
                                     </div>
                                 </div>
                             </div>
@@ -104,6 +104,9 @@ export default {
         },
         gotoclassification() {
             this.$router.push('/classificationtask');
+        },
+        gototranslation() {
+            this.$router.push('/translationtask');
         }
     },
     mounted() {
