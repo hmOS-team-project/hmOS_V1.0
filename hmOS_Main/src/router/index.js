@@ -208,9 +208,21 @@ const VueRouter = new Router({
         meta: { title: '分类任务' }
     },
     {
+        path: '/translationtask',
+        component: () =>
+            import( /* webpackChunkName: "login" */ '../components/page/TranslationTask.vue'),
+        meta: { title: '翻译任务' }
+    },
+    {
         path: '/taskmodeplus/:input',
         component: () =>
             import( /* webpackChunkName: "login" */ '../components/page/TaskModePlus.vue'),
+        meta: { title: '协作模式' }
+    },
+    {
+        path: '/translationmain/:input',
+        component: () =>
+            import( /* webpackChunkName: "login" */ '../components/page/TranslationTaskPlus.vue'),
         meta: { title: '协作模式' }
     },
     {
