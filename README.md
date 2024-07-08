@@ -85,17 +85,17 @@
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/19.png" width="700px" height="350px" />   
 
-### 5. Execute the program translation task.
+### 5. Execute the code translation task.
 
 **(1) Upon logging in, access the platform homepage and utilize the "Create Task" function to initiate a task.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/20.png" width="700px" height="350px" />   
 
-**(2) Create a program translation task by selecting the "Program Translation.** 
+**(2) Create a code translation task by selecting the "Translation" category.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/21.png" width="700px" height="350px" />   
 
-**(3) Input the source code and click the "TRANSLATE" button.** 
+**(3) Input the source code in the "Source Code Input" text box and click the "TRANSLATE" button.** 
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/22.png" width="700px" height="350px" />   
 
