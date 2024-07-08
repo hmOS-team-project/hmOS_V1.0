@@ -84,3 +84,23 @@
 **(6) During task execution, click the right-sided red box (which turns yellow when in progress) to initiate sampling, assigning photos for human annotation.**
 
 <img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/19.png" width="700px" height="350px" />   
+
+### 5. Execute the program translation task.
+
+**(1) Upon logging in, access the platform homepage and utilize the "Create Task" function to initiate a task.** 
+
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/20.png" width="700px" height="350px" />   
+
+**(2) Create a program translation task by selecting the "Program Translation.** 
+
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/21.png" width="700px" height="350px" />   
+
+**(3) Input the source code and click the "TRANSLATE" button.** 
+
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/22.png" width="700px" height="350px" />   
+
+**(4) After the first translation result is obtained, select the first error token with the mouse in the "Target Code Output" text box, click the "CHOOSE" button, enter human feedback in the rightmost text box, and click "CONFIRM" button to obtain the next iteration result until it is correct.** 
+
+<img src="https://github.com/hmOS-team-project/hmOS_V1.0/blob/master/IMG/23.png" width="700px" height="350px" />     
+
+
